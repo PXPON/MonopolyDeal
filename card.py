@@ -8,4 +8,7 @@ class Card:
 	def __init__(self, type):
 		self.type = type
 
+	def __str__(self):
+		# This method will return a string representation of the card.
+		return f"The type is {self.type}"
 
