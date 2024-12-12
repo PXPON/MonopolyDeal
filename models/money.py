@@ -4,5 +4,6 @@ from card import Card
 
 class MoneyCard(Card):
 	def __init__(self, denomination):
-		# Initialize a money card	
+		# Initialize a money card
+		super().__init__("money")	
 		self.denomination = denomination
